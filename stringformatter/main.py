@@ -8,7 +8,7 @@ from formater.idwall_formatter import IdwallFormatter
 def main():
 
     text = 'This is a program to manipulate strings. You can give me a string with --text/-t ' \
-           'an I\'ll return the same text with only n characters per line. The default value for n is 40, ' \
+           'an I\'ll return the text with only n characters per line. The default value for n is 40, ' \
            'but you can define you\'re own value passing a --size/-s argument. Besides that, if you want ' \
            'a justified string, you just need to specify --justifify/-j'
 
