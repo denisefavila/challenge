@@ -2,7 +2,7 @@ import argparse
 import sys
 
 from const import DEFAULT_INPUT_TEXT, DEFAULT_LIMIT, DEFAULT_JUSTIFY
-from formater.IdwallFormatter import IdwallFormatter
+from formater.idwall_formatter import IdwallFormatter
 
 
 def main():
@@ -25,7 +25,7 @@ def main():
 
     formatted_string = IdwallFormatter(input_text,
                                        limit,
-                                       justify).format()
+                                       justify=True).format()
 
     print(formatted_string)
 
