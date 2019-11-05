@@ -25,7 +25,7 @@ def main():
 
     formatted_string = IdwallFormatter(input_text,
                                        limit,
-                                       justify=True).format()
+                                       justify).format()
 
     print(formatted_string)
 
