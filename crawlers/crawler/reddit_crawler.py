@@ -33,14 +33,14 @@ class RedditCrawler(object):
 
                         title = child.find('p', {'class': 'title'}).find("a")
                         thread_name = title.contents[0]
-                        thread_link = title.get("href")
+                        #thread_link = title.get("href")
 
                         comments_link = child.find('li', {'class': 'first'}).find('a')['href']
 
                         top_posts.append({"subreddit": child["data-subreddit-prefixed"],
                                           "votes": votes,
                                           "thread_name": thread_name,
-                                          "thread_link": thread_link,
+                                          #"thread_link": thread_link,
                                           "comments_link": comments_link})
 
                 next_button = soup.find("span", {'class': "next-button"})
