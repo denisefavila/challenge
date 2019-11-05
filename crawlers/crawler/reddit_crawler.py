@@ -15,10 +15,8 @@ class RedditCrawler(object):
     def get_top_threads(self):
         status_code, soup = get_soup(self._get_composite_subreddit_page())
         print(status_code)
-        if status_code != 200:
-            pass
-        
-        else:
+        # TODO: errors on status code
+        if status_code == 200:
             top_posts = list()
 
             while True:
