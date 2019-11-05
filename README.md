@@ -2,13 +2,14 @@
 
 Neste respositórios, temos dois projetos:
 
+
+### Manipulador de strings.
+
 1. https://github.com/denisefavila/challenge/tree/master/stringformatter
 
-Manipulador de strings.
+### Bot de Telegram com um crawler de Reddit.
 
 2. https://github.com/denisefavila/challenge/tree/master/crawlers
 
-Bot de Telegram com um crawler de Reddit.
 
-
-## Linguagem: Python
+#### Linguagem: Python
